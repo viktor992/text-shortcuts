@@ -4,6 +4,10 @@
   "displayName": "text-shortcuts",
   "description": "Shortcut buttons for inserting text in the current file.",
   "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/viktor992/text-shortcuts"
+  },
   "engines": {
     "vscode": "^1.63.0"
   },
