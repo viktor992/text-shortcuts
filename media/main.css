@@ -1,0 +1,41 @@
+body {
+	background-color: transparent;
+}
+
+.shortcut-list {
+	list-style: none;
+	padding: 0;
+	margin-bottom: 30px;
+}
+
+.shortcut-entry {
+	width: 100%;
+	display: flex;
+	margin-bottom: 0.4em;
+	border: 1px solid var(--vscode-input-border);
+}
+
+.shortcut-preview {
+	width: 2em;
+	height: 2em;
+}
+
+.shortcut-preview:hover {
+	outline: inset white;
+}
+
+.shortcut-input {
+	display: block;
+	flex: 1;
+	width: 100%;
+	color: var(--vscode-input-foreground);
+	background-color: var(--vscode-input-background);
+	border: none;
+	padding: 0 0.6em;
+}
+
+.add-shortcut-button {
+	display: block;
+	border: none;
+	margin: 0 auto;
+}
